@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-websocket",
+  "version": "1.0.0",
+  "description": "NodeJs-WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJs-WebSocket"
+  ],
+  "author": "Asep Trisna Setiawan, M.T.",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "ws": "^8.14.2"
+  }
+}
